@@ -1,6 +1,6 @@
-/*Comentario css*/
+
 h1{
-    background-color: red;
+    /* background-color: red; */
 }
 
 p{
@@ -10,4 +10,21 @@ p{
 
 input{
     border: 1px solid orangered;
+}
+
+.fonte-pequena {
+    font-size: 8px;
+}
+
+nav{
+    font-size: 18px;
+    color: blue;
+    font-weight: bold;
+}
+
+a {
+    font-size: 18px;
+    color: orangered;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }

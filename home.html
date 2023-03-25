@@ -5,6 +5,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
+    <link rel="stylesheet" href="CSS/style_page.css">
+    <style>
+        p {
+            color: blueviolet;
+            font-size: 20px;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        #diferente{
+            color: yellowgreen;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .titulo{
+            color: red;
+            /* font-size: 30px; */
+            font-family: 'Courier New', Courier, monospace;
+            /* background-color: black; */
+        }
+        .fonte-grande{
+            /* font-size: 100px; */
+        }
+    </style>
 </head>
 <body>
     <div>
@@ -22,22 +43,22 @@
             </ul>
         </nav>
         <header>
-            <h1>Home</h1>
+            <h1 class="titulo fonte-grande">Home</h1>
         </header>
         <section>
-            <h2 style="text-decoration:  line-through">Sobre</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore nulla iste cum non sed maiores
+            <h2 style="text-decoration:  line-through; color: green;" class="titulo">Sobre</h2>
+            <p id="diferente">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore nulla iste cum non sed maiores
                 eaque soluta ipsam, minus architecto beatae temporibus ducimus at neque praesentium distinctio
                 reprehenderit, doloremque magnam?</p>
         </section>
         <footer>
-            <h4><u>Informações de Contato</u></h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque dolorum, harum molestiae aperiam
+            <h4 class="fonte-pequena"><u>Informações de Contato</u></h4>
+            <p class="fonte-grande">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque dolorum, harum molestiae aperiam
                 incidunt labore mollitia inventore autem? Odit exercitationem quas fuga obcaecati at. Perferendis
                 exercitationem laborum adipisci laudantium ullam?</p>
             <ul>
                 <li>Email de contato: rm98938@fiap.com.br</li>
-                <li>Numero: 11960588363</li>
+                <li class="fonte-grande titulo">Numero: 11960588363</li>
             </ul>
         </footer>
     </div>
