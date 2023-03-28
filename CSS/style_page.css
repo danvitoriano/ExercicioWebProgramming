@@ -1,11 +1,15 @@
-
-h1{
-    /* background-color: red; */
-}
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 
 p{
-    color: aqua;
-    border: 2px solid green;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    text-transform: capitalize;
+    line-height: 20px;
+    letter-spacing: 1px;
+    word-spacing: 12px;
+    text-indent: 3em;
+    /* font-weight: bold; */
 }
 
 input{
@@ -27,4 +31,65 @@ a {
     color: orangered;
     font-weight: bold;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+}
+
+h1{
+    color: yellow;
+    font-family: 'Lobster', cursive;
+}
+
+#diferente{
+    color: yellowgreen;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.diferente{
+    color: yellowgreen;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.tamanho {
+    font-size: 20px;
+}
+
+
+.titulo{
+    color: red;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: black;
+}
+
+body {
+    background-image: url('../img/background.jpeg');
+    background-repeat: repeat;
+    /* background-position: center center; */
+    background-attachment: fixed;
+}
+
+h2 {
+    color: pink;
+    font-size: 2em;
+}
+
+.codigo{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+code {
+    color: white;
+}
+
+.negrito{
+    font-weight: bold;
+    font-style: italic;
+}
+
+.small-caps{
+    font-variant: small-caps;
+}
+
+.sombrinha{
+    text-shadow: 3px 3px 1px green;
 }
